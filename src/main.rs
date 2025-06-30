@@ -1,11 +1,6 @@
-#![allow(unused_imports)]
-#![feature(iter_chain)]
-use base64::prelude::*;
-use hex_literal::hex;
 use rayon::prelude::*;
 use serde_json::Value;
 use sha1::{Digest, Sha1};
-use std::collections::HashMap;
 use std::io::BufRead;
 
 #[derive(Debug)]
