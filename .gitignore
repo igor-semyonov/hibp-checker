@@ -1,3 +1,4 @@
 /target
 *.json
 *.txt
+additional-logins.csv
